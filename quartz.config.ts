@@ -8,21 +8,21 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "LYT Ideaverse 🌌",
+    pageTitle: "John's Digital Galaxy 🌌",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    baseUrl: "notesv2.johnmavrick.com",
+    ignorePatterns: [".obsidian"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "local",
       cdnCaching: true,
       typography: {
-        header: "Canela Deck Web",
+        header: "DM Sans",
         body: "DM Sans",
         code: "DM Mono",
       },
